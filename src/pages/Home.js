@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { List, Grid } from 'lucide-react';
-import SearchBar from '../containers/Search/SearchBar';
-import SearchResults from '../containers/Search/SearchResults';
-import ImageContainer from '../containers/Image/ImageContainer';
-import RecentSearches from '../containers/RecentSearch/RecentSearches';
+import SearchBar from '../components/Search/SearchBar';
+import SearchResults from '../components/Search/SearchResults';
+import ImageContainer from '../components/Image/ImageContainer';
+import RecentSearches from '../components/RecentSearch/RecentSearches';
 
 const Home = () => {
 	const [searchTerm, setSearchTerm] = useState('');
